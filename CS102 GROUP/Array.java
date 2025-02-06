@@ -23,14 +23,19 @@ public static void findSum(int[] arr){
             sumOfOddNums += arr[i];
         }
     }
-    System.out.println("Sum Of Even Numbers:" + sumOfEvenNums + "Sum Of Odd Numbers:" + sumOfOddNums);
+    System.out.println("Sum Of Even Index:" + sumOfEvenNums + " Sum Of Odd Index:" + sumOfOddNums);
 }
     while(!exit){
+        System.out.println("Enter array size: ");
+        int size = in.nextInt();
         System.out.println("Choose the option:\n" +"1-Find the array's minimum\n" + "2-Find the array's maximum\n" + 
         "3- Find the average of the array\n" + "4-Find the sum of elements with odd- and even-numbered indexes\n" + "5-Exit");
         Scanner in = new Scanner(System.in);
         int num = in.nextInt();
-        System.out.println();
+       
+        
+        createArray(size);
+
         if(num == 1){
 
         }
@@ -41,7 +46,7 @@ public static void findSum(int[] arr){
 
         }
          else if(num == 4){
-
+            findSum();
         }
         else if(num == 5){
             exit = true;
