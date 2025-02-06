@@ -64,6 +64,35 @@ public static double[] averageDifferences(int[] array)
     }
     return differences;
 }
+public static int arrayMax(int[] array)
+{
+    int largest = 0;
+    
+    for(int number : array)
+    {
+        if(number > largest)
+        {
+            largest = number;
+        }
+    }
+    return largest;
+}
+
+public static int arrayMin(int[] array)
+{
+    int smallest = 100;
+
+    for(int number : array)
+    {
+        if(number < smallest)
+        {
+            smallest = number;
+        }
+    }
+    return smallest;
+}
+
+
 
 
 
