@@ -34,19 +34,19 @@ public static void findSum(int[] arr){
         int num = in.nextInt();
        
         
-        createArray(size);
+       int[] arr = createArray(size);
 
         if(num == 1){
-
+            arrayMin(arr);
         }
         else if(num == 2){
-
+             arrayMax(arr);
         }
          else if(num == 3){
-
+            averageDifferences(arr);
         }
          else if(num == 4){
-            findSum();
+            findSum(arr);
         }
         else if(num == 5){
             exit = true;
