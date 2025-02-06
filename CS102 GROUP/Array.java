@@ -15,6 +15,7 @@ public int[] createArray(int size) {
     }
 
     return array;
+}
 /*
 Find the average of the array. Display how each element of the array differs from the average. 
 For example, if the array is {2, 6, 9, 3, 5}, and the average is 5, then the differences 
