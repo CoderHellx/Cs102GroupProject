@@ -1,3 +1,3 @@
 # Cs102GroupProject
 Cs102
-sdofjpsdhfpsd
+This is our Assignment 2.
