@@ -7,7 +7,7 @@ Find the average of the array. Display how each element of the array differs fro
 For example, if the array is {2, 6, 9, 3, 5}, and the average is 5, then the differences 
 from the average would be {-3, 1, 4, -2, 0}
  */
-public static int[] averageDifferences(int[] array)
+public static double[] averageDifferences(int[] array)
 {
     double sum = 0;
     for(int i = 0; i < array.length; i++)
@@ -20,4 +20,5 @@ public static int[] averageDifferences(int[] array)
     {
         differences[j] = array[j] - average;
     }
+    return differences;
 }
