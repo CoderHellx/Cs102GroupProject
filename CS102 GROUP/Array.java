@@ -64,3 +64,7 @@ public static double[] averageDifferences(int[] array)
     }
     return differences;
 }
+
+
+
+  
