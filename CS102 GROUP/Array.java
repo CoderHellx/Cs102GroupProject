@@ -18,7 +18,7 @@ public class Array
 
         while(!exit){
             System.out.println("Choose the option:\n" +"1-Find the array's minimum\n" + "2-Find the array's maximum\n" + 
-            "3- Find the average of the array\n" + "4-Find the sum of elements with odd- and even-numbered indexes\n" + "5-Exit");
+            "3-Find the average of the array and compute the differences from average\n" + "4-Find the sum of elements with odd- and even-numbered indexes\n" + "5-Exit");
             int num = in.nextInt();
 
             if(num == 1){
